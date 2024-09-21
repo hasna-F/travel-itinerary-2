@@ -1,0 +1,249 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf5f9; /* Light pastel pink background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffe6f2; /* Soft light pink */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.nav-menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #cc6699; /* Soft pastel pink */
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #6699cc; /* Light pastel blue on hover */
+}
+
+/* Main Section Styling */
+section {
+    padding: 30px 15px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9966cc; /* Light lavender */
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    padding: 0 10px;
+}
+
+/* Destinations Section */
+#destinations {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.destination-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #fff6fb; /* Soft pinkish white */
+    border: 1px solid #ffd9e9; /* Light pink border */
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #ff99cc; /* Light pink */
+}
+
+article p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Itinerary Section */
+.itinerary h4 {
+    font-size: 1.1rem;
+    color: #ff66b2; /* Soft pink */
+}
+
+.itinerary ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.itinerary li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Reviews Section */
+.reviews {
+    margin-top: 15px;
+    background-color: #e6e6ff; /* Light lavender */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.reviews h4 {
+    color: #9966cc; /* Light lavender */
+}
+
+.reviews ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.reviews li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Booking Section */
+#booking {
+    text-align: center;
+    background-color: #ffe6e6; /* Light blush pink */
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+#booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+#booking-form select,
+#booking-form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background-color: #fff6fb;
+}
+
+#booking-form button {
+    padding: 10px 20px;
+    background-color: #ff99cc;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#booking-form button:hover {
+    background-color: #ff66b2;
+}
+
+/* Contact Form Section */
+#contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background-color: #fff6fb;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #ff99cc;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #ff66b2;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffe6f2;
+    color: #777;
+}
+
+footer a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+}
+
+.social-media-links img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
