@@ -85,7 +85,7 @@ article {
     margin: 15px;
     padding: 20px;
     width: 300px;
-    text-align: center;
+    text-align: left;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
