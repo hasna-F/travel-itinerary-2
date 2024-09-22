@@ -25,6 +25,30 @@ h1 {
     font-weight: 300;
     color: #333;
 }
+/* Search Bar Styling */
+#search {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: #fff6fb; /* Soft pinkish white */
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff99cc; /* Light pink */
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #ff66b2; /* Slightly darker pink on hover */
+}
 
 .nav-menu {
     display: flex;

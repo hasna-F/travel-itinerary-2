@@ -18,4 +18,18 @@ form.addEventListener('submit', function(e) {
         alert('Please fill in all fields');
         e.preventDefault();
     }
-});
+}); 
+   // Search Destination Function
+   function searchDestination() {
+    const input = document.getElementById('search').value.toLowerCase();
+    const destinations = document.querySelectorAll('article'); // Select all destination articles
+
+    destinations.forEach(destination => {
+        const title = destination.querySelector('h3').innerText.toLowerCase(); // Get the destination name
+        if (title.includes(input)) {
+            destination.style.display = ""; // Show matching destination
+        } else {
+            destination.style.display = "none"; // Hide non-matching destination
+        }
+    });
+}
